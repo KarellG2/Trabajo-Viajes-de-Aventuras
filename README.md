@@ -3,9 +3,13 @@
 Criterios de evaluación
 
 4.1.1 Identifica requerimientos de la solución, de acuerdo con problemática.
+
 4.1.2 Diseña diagramas de clases y casos de uso para la solución, de acuerdo con la notación UML.
+
 4.1.3 Representa los procesos de negocios involucrados por la solución, considerando BPMN.
+
 4.1.4 Aplica metodologías ágiles de desarrollo, considerando los roles del equipo y los pazos de entrega de la solución.
+
 4.1.5 Construye solución con autenticación segura (Hash) y conectada a base de datos según requerimientos identificados
 
 I	Presentación
@@ -13,15 +17,25 @@ I	Presentación
 La siguiente guía contiene la información necesaria para realizar la entrega del producto/proyecto “Desarrollo de Software para una Agencia de Viajes” que se desarrollará durante esta cuarta unidad. Los lineamientos y orientaciones presentes en este recurso de aprendizaje permitirán identificar claramente los pasos a realizar para diseñar, desarrollar y presentar la solución según las necesidades planteadas. 
 
 Para la realización de esta guía es importante abarcar las siguientes etapas de desarrollo: 
+
   1.	Recolección de Requisitos. 
+
   2.	Planificación del Proyecto. 
+  
   3.	Diseño Preliminar. 
+  
   4.	Desarrollo Iterativo. 
+  
   5.	Presentación de Demostraciones Parciales.
+  
   6.	Documentación Continua. 
+  
   7.	Pruebas Integrales.
+  
   8.	Optimización y Mejora Continua.
+  
   9.	Entrega Final y Presentación.
+  10.	
 Esta guía implica la realización de un Informe, correspondiente a la Evaluación Sumativa 4 (ES4) que consiste en el desarrollo un software en Python con metodologías ágiles, para el encargo de un cliente simulado y entrega de un Informe técnico y documentación que incluya los diagramas UML, los procesos de negocio y el Código del programa en Python con autenticación y almacenamiento en base de datos. Los estudiantes además deberán realizar la presentación oral de la solución.
 
 Para la realización de esta entrega, contarás con el instrumento de evaluación “Rúbrica N°2”, previamente confeccionado, que constituye el estándar mínimo a cumplir en la realización de esta actividad.
@@ -42,78 +56,130 @@ Una vez conformados los grupos de trabajo, deben establecer el rol de cada integ
 III.	Actividades
 
 Actividad 1: Recolección de Requisitos 
+
 ·	Entender completamente los requisitos del cliente en términos de gestión de destinos, paquetes turísticos y reservas.
+
 ·	Identificar cualquier requisito adicional y aclarar dudas con el cliente (docente).
  
 Actividad 2: Planificación del Proyecto 
+
 ·	Establecer un plan de desarrollo basado en metodología ágil, dividiendo el trabajo en Sprint.
+
 ·	Asignar tareas específicas a cada miembro del equipo.
+
  
+
 Actividad 3: Diseño Preliminar
+
 ·	Crear esbozos iniciales de la arquitectura del sistema.
+
 ·	Diseñar la estructura de la base de datos.
+
 ·	Definir la interfaz de usuario y las funcionalidades clave.
  
+
+
 Actividad 4: Desarrollo Iterativo 
+
 ·	Implementar las funciones básicas de gestión de destinos y paquetes turísticos en la primera iteración.
+
 ·	Introducir la autenticación y la gestión de reservas en iteraciones posteriores.
+
 ·	Realizar pruebas de unidad continuas para garantizar la calidad del código.
+
  
+
 Actividad 5: Presentación de Demostraciones Parciales
+
 ·	Mostrar al cliente (docente) versiones parciales del software después de cada iteración.
+
 ·	Recopilar comentarios y realizar ajustes según sea necesario.
- 
+
+
+
 Actividad 6: Documentación Continua
+
 ·	Mantener actualizada la documentación, incluyendo diagramas UML y procesos de negocio, a medida que se desarrolla el software.
+
 ·	Asegurarse de que la documentación refleje con precisión el estado actual del sistema.
  
 Actividad 7: Pruebas Integrales
+
 ·	Realizar pruebas integrales para garantizar que todas las funciones trabajen de manera conjunta y que no haya problemas de integración.
 
 Actividad 8: Optimización y Mejora Continua
+
 ·	Identificar áreas de mejora en términos de rendimiento, seguridad o usabilidad.
+
 ·	Implementar optimizaciones y realizar ajustes basados en la retroalimentación del cliente (docente) y del equipo.
 
 Actividad 9: Entrega Final y Presentación
+
 ·	Preparar la entrega final que incluya el informe técnico, documentación completa y carga de evidencias en el Ambiente de Aprendizaje de Inacap AAI.
+
 ·	Presentar la solución y sus funcionalidades al cliente (docente).
 
 
 
 Actividad (ES4) Informe técnico del diseño y desarrollo de software junto con la presentación  oral.
 La Evaluación Sumativa 4 consiste en que los estudiantes de manera grupal conformados por equipos de entre 2 a 3 estudiantes, desarrollan un software en Python con metodologías ágiles, para el encargo de un cliente simulado y entregan Informe técnico y documentación que incluye los diagramas UML, los procesos de negocio y el Código del programa en Python con autenticación y almacenamiento en base de datos. Los estudiantes además deberán realizar la presentación oral de la solución.
+
 Para la entrega debe considerar: 
+
   •	Descripción detallada de la arquitectura del software.
+  
   •	Patrones de Diseño Utilizados.
+  
   •	Planificación del Proyecto. 
+  
   •	Diagrama de Clases propuesto para la solución.
+  
   •	Diagramas de Casos de usos. 
+  
   ·	Representación de los procesos de negocios involucrados por la solución (BPMN).
+  
   ·	Código del Programa en Python.
+  
   ·	Sistema de autenticación.
+  
   ·	Persistencia del sistema a Base de Datos.
+  
   ·	Presentación de la solución.
 
+
+
 Título del caso: Desarrollo de Software para una Agencia de Viajes.
+
 Contexto:
+
 Imagina que un grupo de empresarios está iniciando una nueva agencia de viajes llamada "Viajes Aventura". Quieren crear un sistema de reserva en línea para ofrecer a sus clientes la posibilidad de planificar y reservar sus vacaciones de manera conveniente. El sistema debe gestionar diferentes destinos, paquetes turísticos y permitir a los clientes personalizar sus viajes.
  
 Requerimientos del Cliente:
+
 La agencia de viajes tiene varios requisitos clave que desean que se aborden en el sistema:
 
+
   1.	Gestión de Destinos:
+  
     •	Cada destino tiene información como nombre, descripción, actividades disponibles y costo.
+    
     •	Debe ser posible agregar, mostrar todos, modificar y eliminar destinos.
   
   2.	Paquetes Turísticos:
+
     •	Los paquetes turísticos consisten en combinaciones de destinos con fechas específicas.
+
     •	Cada paquete tiene un precio total que se calcula en función de los destinos seleccionados y las fechas de viaje.
+    
     •	Los clientes pueden ver la disponibilidad de los paquetes para las fechas deseadas.
   
-  3.	Reservas:
-    •	Los clientes pueden seleccionar y reservar paquetes turísticos disponibles.
-    •	Se requiere un sistema de autenticación para que los clientes puedan realizar reservas y acceder a sus detalles personales.
-    •	Cada reserva debe registrarse en una base de datos para su posterior gestión.
+  4.	Reservas:
+
+    	•	Los clientes pueden seleccionar y reservar paquetes turísticos disponibles.
+
+    	•	Se requiere un sistema de autenticación para que los clientes puedan realizar reservas y acceder a sus detalles personales.
+
+      •	Cada reserva debe registrarse en una base de datos para su posterior gestión.
 
 
 Entregables Solicitados:
@@ -122,22 +188,35 @@ El equipo de estudiantes debe desarrollar un software en Python utilizando metod
 
   1.	Informe Técnico:
     •	Descripción detallada de la arquitectura del software.
+   
     •	Patrones de Diseño Utilizados:
+    
       o	Identificación y explicación de los patrones de diseño aplicados en el sistema.
+      
       o	Razones detrás de la elección de estos patrones y cómo contribuyen a la calidad y mantenibilidad del código.
+    
     •	Planificación del Proyecto.
+     
       o	Product Backlog.
+      
       o	Sprint Backlog
   
-  2.	Documentación:
+  3.	Documentación:
+
     •	Diagramas UML que representen la estructura del sistema, incluyendo diagramas de clases y casos de uso.
+    
     •	Procesos de negocio detallados que describan cómo se gestionan las reservas, la actualización de destinos y la disponibilidad de paquetes turísticos.
   
-  3.	Código del Programa en Python:
+  5.	Código del Programa en Python:
+
     •	El código debe estar bien comentado y seguir las mejores prácticas de programación.
+    
     •	Se debe implementar un sistema de autenticación para la gestión de reservas.
+    
     •	La información de la aplicación debe almacenarse en una base de datos, y se espera una descripción detallada del esquema de la base de datos.
 
 Notas Adicionales:
+  
   •	El equipo debe presentar una demostración del sistema en funcionamiento durante la evaluación.
+  
   •	La entrega final debe incluir la carga de evidencia de su trabajo en el AAI que contenga todo el código y la documentación. 
